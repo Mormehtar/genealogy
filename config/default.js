@@ -10,5 +10,4 @@ module.exports = {
     "Where the fear has gone there will be nothing. Only I will remain."
   ],
   proxy: false,
-  port: 8080,
 };

@@ -4,8 +4,7 @@
   "description": "WOD Masquarade genalogy site",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack && node index.js",
-    "install": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack",
     "start": "node index.js",
     "migrate": "node ./scripts/migrate"
   },

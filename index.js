@@ -6,7 +6,7 @@ const config = require('./config');
 const backend = require('./routes/backend');
 const frontend = require('./routes/frontend');
 
-const port = config.port;
+const port = config.port || 443;
 const app = new Koa();
 
 app.keys = config.keys;

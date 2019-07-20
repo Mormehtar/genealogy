@@ -60,3 +60,6 @@ typings/
 static/bundle.js
 server/config/dev.js
 config/dev.js
+volumes
+
+.neo4j.env

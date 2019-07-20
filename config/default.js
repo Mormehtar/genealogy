@@ -10,4 +10,9 @@ module.exports = {
     "Where the fear has gone there will be nothing. Only I will remain."
   ],
   proxy: false,
+
+  neo4j: {
+    user: "neo4j",
+    uri: "neo4j"
+  }
 };
